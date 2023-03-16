@@ -30,7 +30,7 @@ for name, reqs in extras_require.items():
     extras_require["all"].extend(reqs)
 
 setup(
-    name="flask-shell-ptpython",
+    name="flask-shell-ptpython2",
     autosemver={
         "bugtracker_url": URL + "/issues",
     },

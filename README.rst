@@ -2,9 +2,7 @@
  Flask-Shell-PTPython
 ======================
 
-.. image:: https://travis-ci.org/jacquerie/flask-shell-ptpython.svg?branch=master
-    :target: https://travis-ci.org/jacquerie/flask-shell-ptpython
-
+This is hopefully a temporary fork of https://github.com/jacquerie/flask-shell-ptpython
 
 About
 =====

@@ -21,7 +21,7 @@ Install
 
 .. code-block:: console
 
-    $ pip install flask-shell-ptpython
+    $ pip install flask-shell-ptpython2
 
 
 Usage

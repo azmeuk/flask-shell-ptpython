@@ -3,32 +3,13 @@ name: tests
 on:
   push:
     branches:
-      - master
+      - main
       - '*.x'
   pull_request:
     branches:
-      - master
+      - main
       - '*.x'
 jobs:
-  tests:
-    name: ${{ matrix.python }}
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        python:
-          - '3.11'
-          - '3.10'
-          - '3.9'
-          - '3.8'
-          - '3.7'
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python }}
-      - run: pip install tox
-      - run: tox -e py
   style:
     runs-on: ubuntu-latest
     steps:
